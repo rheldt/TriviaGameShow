@@ -7,6 +7,14 @@ namespace TriviaGameShow
         public frmGameBoard()
         {
             InitializeComponent();
+
+            foreach (Control c in pnlColumns.Controls )
+            {
+                //if (c.Name.StartsWith("lblTitle") || c.Name.StartsWith("lblQuestion"))
+                //{
+                //}
+            }
+
         }
     }
 }
